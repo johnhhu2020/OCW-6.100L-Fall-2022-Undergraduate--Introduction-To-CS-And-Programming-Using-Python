@@ -16,7 +16,7 @@ test_string = "We want to remove the nth character from this string"  # define n
 n = 8  # we set n to be 8
 
 # Insert code below
-new_string = test_string[:n-1] + test_string[n:]
+new_string = test_string[:n-1] + test_string[n:]  ## LOL same as mine, I was thinking str minus and turned out it only support append
 print(test_string)
 print(new_string)
 
